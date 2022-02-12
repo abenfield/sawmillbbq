@@ -1,0 +1,33 @@
+/* #Tablet (Portrait) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .wrapher {
+        width: 768px; 
+    }
+}
+/*  #Mobile (Portrait) - Note: Design for a width of 320px */
+@media only screen and (max-width: 767px) {
+    .wrapher { 
+        width: 95%; 
+    }
+    
+    #portfoliolist .wrapher{
+        width:48%;
+        margin:1%;
+    }        
+    #ads {
+        display:none;
+    }
+    
+}
+
+/* #Mobile (Landscape) - Note: Design for a width of 480px */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .wrapher {
+        width: 70%;
+    }
+    
+    #ads {
+        display:none;
+    }
+    
+}
